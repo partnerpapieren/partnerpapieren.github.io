@@ -1,13 +1,12 @@
 # Site settings
-title: Clean Blog
+title: Partner Zonder Papieren  
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
-baseurl: "/startbootstrap-clean-blog-jekyll"
-url: "http://yourdomain.com"
-twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+email: contact@partnerzonderpapieren.nl
+description: "De verborgen wereld van interculturele liefde. interculturele relaties, illegale partner, vluchtelingen, gezinshereniging, verblijfsvergunning."
+baseurl: ""
+url: "http://partnerzonderpapieren.nl"
+twitter_username: partnerpapieren
+facebook_username:  partnerzonderpapieren
 
 # Build settings
 markdown: kramdown
