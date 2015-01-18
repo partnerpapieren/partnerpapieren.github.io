@@ -14,7 +14,7 @@ description: "de verborgen wereld van grenzenloze liefde"
         </h3>
         {% endif %}
     </a>
-    <p class="post-meta">Posted by {{ post.author }} on {{ post.date | date: "%B %-d, %Y" }}</p>
+    <p class="post-meta">{{ post.date | date: "%-d-%m-%Y" }}</p>
 </div>
 <hr>
 {% endfor %}
@@ -24,12 +24,12 @@ description: "de verborgen wereld van grenzenloze liefde"
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Nieuwere Posts</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Oudere Posts &rarr;</a>
     </li>
     {% endif %}
 </ul>

@@ -1,8 +1,9 @@
 ---
-layout: page
-title: "Info"
-description: "ik deel mijn ervaringen met jou"
-header-img: "img/about-bg.jpg"
+layout:     post
+title:      "Reis je mee?"
+subtitle:   "ik deel mijn ervaringen met jou"
+date:       2015-01-18 12:00:00
+header-img: "img/post-bg-01.jpg"
 ---
 
 <p>Toen ik de grote liefde van mijn leven ontmoette, wist ik niet dat er een verborgen wereld voor mij zou opengaan. Een wereld die je als doorsnee witte Nederlander pas tegenkomt als je niet-witte niet-Nederlanders leert kennen. </p>
